@@ -1,0 +1,475 @@
+#style-bold{
+	font-weight: bold;
+    border: none!important;
+    
+	background: #FFF;
+    font-family: times new roman;
+    font-size: 15px;
+    cursor: pointer;
+	/* color: #0051F9; */
+}
+
+.act-style{
+	color: #42a5f5;
+}
+
+#style-italic{
+	border: none;
+    background: #fff;
+    font-family: times new roman;
+    font-size: 15px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.text-color-box {
+	width: 30px;
+	height: 20px;
+	margin-top: 2px;
+	border: 1px solid #000000;
+}
+
+.border-color-box {
+	width: 30px;
+	height: 20px;
+	margin-top: 13px;
+	border: 1px solid #000000;
+}
+
+.tasTop-color-box {
+	width: 30px;
+	height: 20px;
+	margin-top: 13px;
+	border: 1px solid #000000;
+}
+
+.tasBot-color-box {
+	width: 30px;
+	height: 20px;
+	margin-top: 13px;
+	border: 1px solid #000000;
+}
+
+.tasSid-color-box {
+	width: 30px;
+	height: 20px;
+	margin-top: 13px;
+	border: 1px solid #000000;
+}
+
+.act-translate-thai{
+	border: none;
+	background: url('../../../img/thai-icon-2.png') no-repeat;
+	font-family: times new roman;
+	font-size: 15px;
+	font-style: italic;
+	cursor: pointer;
+	padding: 10px 15px;
+	/* margin-top: 3px; */
+	margin-left: 10px;
+}
+
+.act-translate{
+	background: url('../../../img/usa-icon.png') no-repeat;
+	z-index: 999;
+}
+
+/*---- font style ----*/
+@font-face {
+  font-family: 'thai7bangkokssk';
+  src: url('../../../fonts/thai7bangkokssk.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Audiowide-Regular';
+  src: url('../../../fonts/Audiowide-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Audiowide-Regular';
+  src: url('../../../fonts/Audiowide-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Backslash';
+  src: url('../../../fonts/Backslash.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Battlestar';
+  src: url('../../../fonts/Battlestar.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'BLADRMF_';
+  src: url('../../../fonts/BLADRMF_.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'blaster';
+  src: url('../../../fonts/blaster.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Book_Akhanake';
+  src: url('../../../fonts/Book_Akhanake.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Book_SabuyDee';
+  src: url('../../../fonts/Book_SabuyDee.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Circular Bold';
+  src: url('../../../fonts/Circular Bold.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'collegiateHeavyOutline Medium';
+  src: url('../../../fonts/collegiateHeavyOutline Medium.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'D3Euronism Medium';
+  src: url('../../../fonts/D3Euronism.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'EarthquakeMF';
+  src: url('../../../fonts/EarthquakeMF.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'FargoFaroNF';
+  src: url('../../../fonts/FargoFaroNF.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Freshman';
+  src: url('../../../fonts/Freshman.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Garuda';
+  src: url('../../../fonts/Garuda.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Garuda-Bold';
+  src: url('../../../fonts/Garuda-Bold.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'HFF Thai Dye';
+  src: url('../../../fonts/HFF Thai Dye.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'HFF Thai Dye';
+  src: url('../../../fonts/HFF Thai Dye.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'JerseyLetters';
+  src: url('../../../fonts/JerseyLetters.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'OwahTaguSiamNF';
+  src: url('../../../fonts/OwahTaguSiamNF.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'SR FahtalaiJone NP';
+  src: url('../../../fonts/SR FahtalaiJone NP.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'SUPER_CHARGERS';
+  src: url('../../../fonts/SUPER_CHARGERS.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'TaiHeritagePro';
+  src: url('../../../fonts/TaiHeritagePro.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'torsilp-wadkhen';
+  src: url('../../../fonts/torsilp-wadkhen.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'UNIVERSAL-COLLEGE-draft';
+  src: url('../../../fonts/UNIVERSAL-COLLEGE-draft.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'wlm_carton';
+  src: url('../../../fonts/wlm_carton.ttf')  format('truetype');
+}
+
+#opt-ff .dropdown-content li:nth-child(1){
+	font-family: 'arial'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(2){
+	font-family: 'Arial Black'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(3){
+	font-family: 'Audiowide-Regular'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(4){
+	font-family: 'Avant Garde'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(5){
+	font-family: 'Backslash'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(6){
+	font-family: 'Battlestar'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(7){
+	font-family: 'BLADRMF_'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(8){
+	font-family: 'blaster'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(9){
+	font-family: 'Book_Akhanake'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(10){
+	font-family: 'Book_SabuyDee'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(11){
+	font-family: 'Bookman'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(12){
+	font-family: 'Circular'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(13){
+	font-family: 'collegiateHeavyOutline'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(14){
+	font-family: 'Comic Sans MS'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(15){
+	font-family: 'Courier New'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(16){
+	font-family: 'D3Euronism'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(17){
+	font-family: 'EarthquakeMF'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(18){
+	font-family: 'FargoFaroNF'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(19){
+	font-family: 'Freshman'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(20){
+	font-family: 'Garuda'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(21){
+	font-family: 'Garamond'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(22){
+	font-family: 'Georgia'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(23){
+	font-family: 'Helvetica'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(24){
+	font-family: 'HFF Thai Dye'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(25){
+	font-family: 'Impact'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(26){
+	font-family: 'JerseyLetters'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(27){
+	font-family: 'Lucida Console'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(28){
+	font-family: 'OwahTaguSiamNF'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(29){
+	font-family: 'Palatino'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(30){
+	font-family: 'Helvetica'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(31){
+	font-family: 'TaiHeritagePro'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(32){
+	font-family: 'Tahoma'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(33){
+	font-family: 'SR FahtalaiJone NP'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(34){
+	font-family: 'SUPER_CHARGERS'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(35){
+	font-family: 'Times New Roman'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(36){
+	font-family: 'torsilp-wadkhen'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(37){
+	font-family: 'Trebuchet MS'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(38){
+	font-family: 'UNIVERSAL-COLLEGE-draft'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(39){
+	font-family: 'Verdana'!important;
+}
+
+#opt-ff .dropdown-content li:nth-child(40){
+	font-family: 'wlm_carton'!important;
+}
+
+
+/* ------------- start fabric js ------------------*/
+#mainCanvas{
+	width: 100%!important;
+	background: url(../../../img/gridme.png) repeat center center;
+	/* border: 3px solid #CECECE; */
+}
+
+.brdView{
+	display: block!important;
+}
+
+.btnDisplay{
+	display: none;
+}
+
+
+/*------------- legs and waist color --------------------*/
+
+.color-tool {
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.color-tool li {
+
+	width: 15px;
+	
+
+	height: 15px;
+	display: block;
+	margin: 1px;
+	float: left;
+
+}
+
+.tas-color-tool {
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.tas-color-tool li {
+
+	width: 15px;
+	
+
+	height: 15px;
+	display: block;
+	margin: 1px;
+	float: left;
+
+}
+
+.lcolor-1 { background: #f34235; cursor: pointer;}
+.lcolor-2 { background: #e81d62; cursor: pointer; }
+.lcolor-3 { background: #9b26af; cursor: pointer; }
+.lcolor-4 { background: #6639b6; cursor: pointer;}
+.lcolor-5 { background: #3e50b4; cursor: pointer;}
+.lcolor-6 { background: #2095f2; cursor: pointer;}
+.lcolor-7 { background: #02a8f3; cursor: pointer;}
+.lcolor-8 { background: #00bbd3; cursor: pointer;}
+.lcolor-9 { background: #009587; cursor: pointer;}
+.lcolor-9 { background: #009587; cursor: pointer;}
+.lcolor-10 { background: #4bae4f; cursor: pointer;}
+.lcolor-11 { background: #8ac249; cursor: pointer;}
+.lcolor-12 { background: #ccdb38; cursor: pointer;}
+.lcolor-13 { background: #ffea3a; cursor: pointer;}
+.lcolor-14 { background: #E6A722; cursor: pointer;}
+.lcolor-15 { background: #ff9700; cursor: pointer;}
+.lcolor-16 { background: #ff5621; cursor: pointer;}
+.lcolor-17 { background: #9d9d9d; cursor: pointer;}
+.lcolor-18 { background: #5f7c8a; cursor: pointer;}
+.lcolor-19 { background: #785447; cursor: pointer;}
+.lcolor-20 { background: #000000; cursor: pointer;}
+.lcolor-21 { background: #ECECEC ; cursor: pointer;}
+.lcolor-22 { background: #FFFFFF ; cursor: pointer;}
+
+.theme-list{
+		overflow: scroll;
+		overflow-x:hidden;
+		height: 248px;
+		/* margin-left: -25px; */
+}
+
+.theme-list ul{
+	width: 250px;
+}
+
+.theme-list ul li{
+	float:left;
+	list-style: none;
+	background: #ECEFF1;
+	margin: 1px;
+	padding: 5px;
+}
+
+.theme-list ul li img{
+	width: 110px;
+}
