@@ -405,7 +405,7 @@
     </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   	<script type="text/javascript" src="bower_components/Materialize/js/materialize.min.js"></script>
-  	<script type="text/javascript" src="bower_components/Materialize/js/functions.js"></script>
+  	<script type="text/javascript" src="js/functions.js"></script>
   	<script type="text/javascript" src="bower_components/Materialize/js/colpick.js"></script>
   	<script src="fabric/dist/fabric.min.js"></script>
 </body>
